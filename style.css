@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #200b0b;
+    color: white;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #161111; 
+    color: white;
+    padding: 10px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+header .logo img {
+    height: 40px;
+}
+
+header .search-container {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .search-container input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    width: 300px;
+    max-width: 80%;
+}
+
+header .search-container button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #555;
+    color: white;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: background-color 0.3s;
+}
+
+header .search-container button:hover {
+    background-color: #777;
+}
+
+header .signup button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #50261f;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+header .signup button:hover {
+    background-color: #0c0e10;
+}
+
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #1b0909; /* Dark red background */
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #ddd;
+}
+
+.carousel {
+    margin: 20px;
+    padding: 20px;
+    background-color: #170606; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.carousel h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #fff;
+}
+
+.carousel-container {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    padding-bottom: 10px;
+}
+
+.carousel-card {
+    min-width: 300px;
+    min-height: 200px;
+    flex: 0 0 auto;
+    background-color: #1f1a1a;
+    color: white;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.carousel-card:hover {
+    background-color: #0f129d;
+    transform: scale(1.05);
+}
